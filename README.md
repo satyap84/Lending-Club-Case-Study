@@ -1,44 +1,42 @@
 # Project Name
-> Outline a brief description of your project.
+> Lending Club Case Study
 
 
 ## Table of Contents
 * [General Info](#general-information)
 * [Technologies Used](#technologies-used)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+* [Contributors](#Contributors)
 
 <!-- You can include any other section that is pertinent to your problem -->
 
 ## General Information
-- Provide general information about your project here.
-- What is the background of your project?
-- What is the business probem that your project is trying to solve?
-- What is the dataset that is being used?
+- Lending club is a consumer finance company which specializes in lending various types of loans to urban customers.
+- Company has to make a decision for loan approval based on the applicant’s profile.
+- The objective of analysis is to find the risks using the past data so that lending company can minimize the risk of loosing money  while lending to the customers.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analysis
+- Customers are more likely to default whose debt to income ratio is more than 25 or the loan amount is more than 25000 irrespective of DTI value. Lending club should consider DTI metric to be less than 25 while issuing the loans
+- Grades and Sub grades are good metric for detecting defaulters. Lending club should examine more information from borrowers before issuing loans to B5, B3 and C1 sub grades. Also, A4, A5 and B3 sub grade loans have highest probably of being fully paid off.
+- Lending Club should consider giving lesser loan amount for customers with bankruptcy public records of 2 or less
+- Lending Club should control their number of loans issued to customers who are from CA, FL and NY states to make profits.
+- Lending club should reduce giving loans for the purpose of debt consolidation,other and credit card with higher loan amounts.
+- Lending club should reduce the high interest rates for 60 month loan term as they are more likely to default more.
 
 <!-- You don't have to answer all the questions - just the ones relevant to your project. -->
 
 
 ## Technologies Used
-- library - version 1.0
-- library - version 2.0
-- library - version 3.0
+- Python 3.11.4
 
 <!-- As the libraries versions keep on changing, it is recommended to mention the version of library used in this project -->
 
-## Acknowledgements
-Give credit here.
-- This project was inspired by...
-- References if any...
-- This project was based on [this tutorial](https://www.example.com).
+## Contributors
+
+- Satya Prakash
+- Mythili Kandula
 
 
 ## Contact
