@@ -40,7 +40,7 @@
 
 
 ## Contact
-Created by [@githubusername] - feel free to contact me!
+Created by [@satyap84] - feel free to contact me!
 
 
 <!-- Optional -->
